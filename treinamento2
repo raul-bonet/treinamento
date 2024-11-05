@@ -34,7 +34,7 @@ for (let i = 1; i < numeros2.length; i++) {
 }
 console.log(maiorNumero); 
 
-const letras2 = ["a", "b", "a", "c", "a"];
-const ultimaPosicaoA = letras2.lastIndexOf("a");
+let letras2 = ["a", "b", "a", "c", "a"];
+let ultimaPosicaoA = letras2.lastIndexOf("a");
 
 console.log(ultimaPosicaoA); 
