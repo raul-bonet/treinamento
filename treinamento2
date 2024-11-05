@@ -1,0 +1,40 @@
+let ingredientes=["leite","açucar","pão","manteiga"];
+console.log(ingredientes.indexOf('pão'));
+
+let numeros=[5,10,15,20];
+ console.log(numeros.includes(25));
+
+let valores=[3,6,9,12];
+let soma=0;
+for (let i=0; i<valores.length;i++){
+  soma += valores[i];
+}
+let media= soma/valores.length;
+console.log("média",media);
+
+let paises=["Brasil","Argentina","Chile"];
+console.log(paises.includes('Uruguai'));
+
+let letras = ["a", "b", "a", "c", "a"];
+let contagemA = letras.filter(letra => letra === "a").length;
+console.log(contagemA);
+
+let cores=["azul","verde","preto","amarelo"];
+console.log(cores.indexOf('preto'));
+
+let bebidas=["chá","suco","água"];
+console.log(bebidas.includes('café'));
+
+let numeros2 = [10, 5, 30, 15];
+let maiorNumero = numeros2[0]; 
+for (let i = 1; i < numeros2.length; i++) {
+    if (numeros2[i] > maiorNumero) {
+        maiorNumero = numeros2[i]; 
+    }
+}
+console.log(maiorNumero); 
+
+const letras2 = ["a", "b", "a", "c", "a"];
+const ultimaPosicaoA = letras2.lastIndexOf("a");
+
+console.log(ultimaPosicaoA); 
